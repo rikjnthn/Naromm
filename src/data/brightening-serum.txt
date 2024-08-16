@@ -1,0 +1,39 @@
+<p>
+  Illuminate your complexion with our Naromm Brightening Serum, a potent
+  formula designed to enhance radiance and reduce the appearance of dark spots
+  and uneven skin tone. This advanced serum combines powerful brightening
+  ingredients with skin-nourishing components to reveal a more luminous and
+  even complexion.
+</p>
+
+<div>Key Benefits:</div>
+
+<ul>
+  <li>
+    <span>Brightening Ingredients:</span> Enriched with stabilized vitamin C and
+    alpha-arbutin, this serum helps to diminish dark spots, hyperpigmentation,
+    and dullness for a brighter, more radiant skin tone.
+  </li>
+  <li>
+    <span>Even Skin Tone:</span> Features niacinamide and licorice extract to even out skin
+    tone and reduce the appearance of redness and discoloration.
+  </li>
+  <li>
+    <span>Hydrating and Nourishing:</span> Contains hyaluronic acid and glycerin to provide
+    deep hydration and support skin’s natural moisture balance, enhancing
+    overall skin health and glow.
+  </li>
+  <li>
+    <span>Antioxidant Protection:</span> Infused with antioxidants like green tea extract
+    to protect against environmental stressors and prevent further skin
+    damage.
+  </li>
+</ul>
+
+<div>How to Use:</div>
+<p>
+  Apply a few drops to clean, dry skin, gently pressing and patting it into
+  the face and neck. Follow with your favorite moisturizer. Use morning and
+  evening for best results, and always apply sunscreen during the day to
+  protect your brightened complexion.
+</p>

@@ -1,0 +1,47 @@
+<p>
+  Protect your skin with our advanced Broad Spectrum Sunscreen, offering high-level defense against both UVA and UVB
+  rays. This lightweight, non-greasy formula delivers broad-spectrum protection with SPF 50+ and PA++++, ensuring your
+  skin is shielded from sun damage while maintaining a comfortable, radiant finish.
+</p>
+
+<div>
+  Key Benefits:
+</div>
+
+<ul>
+  <li>
+    <span>High Protection:</span> Provides SPF 50+ for effective protection against harmful UVB rays, preventing sunburn
+    and skin
+    damage.
+  </li>
+  <li>
+    <span>Comprehensive Defense:</span> PA++++ rating ensures superior protection against UVA rays, which can contribute
+    to premature
+    aging and hyperpigmentation.
+  </li>
+  <li>
+    <span>Lightweight Texture:</span> Absorbs quickly into the skin without leaving a white cast or greasy residue,
+    making it perfect
+    for daily wear under makeup or alone.
+  </li>
+  <li>
+    <span>Hydrating Ingredients:</span> Contains hydrating agents such as glycerin and niacinamide to help maintain skin
+    moisture and
+    support a healthy skin barrier.
+  </li>
+  <li>
+    <span>Skin-Friendly Formula:</span> Dermatologically tested and free from parabens, sulfates, and artificial
+    fragrances, suitable
+    for all skin types, including sensitive skin.
+  </li>
+</ul>
+
+<div>
+  How to Use:
+</div>
+
+<p>
+  Apply generously to all exposed skin 15 minutes before sun exposure. Reapply every 2 hours, or after swimming,
+  sweating,
+  or towel drying. For best results, use as the final step in your skincare routine.
+</p>

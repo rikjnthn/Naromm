@@ -1,0 +1,43 @@
+<p>
+  Clear your complexion with our Naromm Anti Acne Facewash, a powerful yet gentle cleanser formulated to target and
+  prevent acne while purifying your skin. This effective facewash combines acne-fighting ingredients with soothing
+  agents to help reduce breakouts, control oil, and maintain a clear, healthy-looking face.
+</p>
+
+<div>
+  Key Benefits:
+</div>
+
+<ul>
+  <li>
+    <span>Acne-Fighting Agents:</span> Features salicylic acid to penetrate pores and dissolve excess oil and debris,
+    helping to
+    reduce and prevent acne breakouts.
+  </li>
+  <li>
+    <span>Deep Cleansing:</span> Removes impurities, dirt, and makeup, leaving your skin thoroughly cleansed and
+    refreshed without
+    over-drying.
+  </li>
+  <li>
+    <span>Oil Control:</span> Includes ingredients like tea tree oil and witch hazel to help control excess sebum
+    production and
+    reduce shine.
+  </li>
+  <li>
+    <span>Soothing Formula:</span> Infused with calming ingredients such as aloe vera and chamomile to soothe irritated
+    skin and
+    minimize redness.
+  </li>
+</ul>
+
+<div>
+  How to Use:
+</div>
+
+<p>
+  Apply a small amount to damp skin and gently massage in circular motions, focusing on areas prone to breakouts. Rinse
+  thoroughly with lukewarm water and pat dry. Use morning and evening for best results, followed by your regular
+  skincare
+  routine.
+</p>

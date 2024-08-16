@@ -1,0 +1,40 @@
+<p>
+  Illuminate your skin with our Naromm Brightening Cream Moisturizer, a
+  luxurious formula designed to enhance radiance and even out skin tone while
+  providing essential hydration. This rich yet lightweight cream helps to
+  brighten dull complexions and address uneven skin tone for a more luminous,
+  refreshed appearance.
+</p>
+
+<div>Key Benefits:</div>
+
+<ul>
+  <li>
+    <span>Brightening Agents:</span> Infused with potent ingredients like vitamin C and
+    niacinamide, this moisturizer works to reduce dark spots,
+    hyperpigmentation, and overall dullness, promoting a more radiant and even
+    skin tone.
+  </li>
+  <li>
+    <span>Hydrating Complex:</span> Features hyaluronic acid and squalane to deliver deep
+    hydration, ensuring your skin feels plump and moisturized throughout the
+    day.
+  </li>
+  <li>
+    <span>Skin-Soothing:</span> Contains calming extracts such as licorice root and green
+    tea to soothe and reduce the appearance of redness, enhancing overall skin
+    comfort.
+  </li>
+  <li>
+    <span>Nourishing Formula:</span> Enriched with antioxidants and essential fatty acids
+    to support skin barrier function and protect against environmental
+    stressors.
+  </li>
+</ul>
+
+<div>How to Use:</div>
+<p>
+  Apply a generous amount to clean, dry skin, gently massaging in upward
+  motions until fully absorbed. Use daily, morning and evening, for best
+  results and to maintain a radiant complexion.
+</p>

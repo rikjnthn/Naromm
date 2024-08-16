@@ -1,0 +1,40 @@
+<p>
+  Experience gentle yet effective cleansing with our Naromm Centella Facewash,
+  designed to soothe and calm sensitive or stressed skin. Infused with the
+  restorative power of Centella Asiatica, this facewash provides a soothing
+  cleanse while supporting your skin’s natural healing processes.
+</p>
+
+<div>Key Benefits:</div>
+
+<ul>
+  <li>
+
+    <span>Soothing Centella:</span> Contains Centella Asiatica extract, renowned for its
+    calming and anti-inflammatory properties, which helps reduce redness and
+    irritation while promoting overall skin health.
+  </li>
+  <li>
+    <span>Gentle Cleansing:</span> Effectively removes dirt, excess oil, and impurities
+    without stripping the skin of its natural oils, ensuring a clean, fresh
+    feel without dryness.
+  </li>
+  <li>
+    <span>Hydrating Formula:</span> Enriched with hydrating agents like hyaluronic acid and
+    glycerin to maintain moisture balance and prevent the skin from feeling
+    tight or dry.
+  </li>
+  <li>
+    <span>Nourishing Ingredients:</span> Includes additional skin-soothing agents such as
+    aloe vera and chamomile to enhance comfort and support skin’s natural
+    barrier function.
+  </li>
+</ul>
+<div>How to Use:</div>
+
+<p>
+  Apply a small amount to damp skin, gently massaging in circular motions to
+  create a lather. Rinse thoroughly with lukewarm water and pat dry. For best
+  results, use twice daily, morning and evening, to keep your skin calm and
+  clean.
+</p>
