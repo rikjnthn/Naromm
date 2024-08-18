@@ -18,7 +18,7 @@ const Cart = ({ setIsOpenCart }: { setIsOpenCart: SetStateType<boolean> }) => {
     <div className="height-full flex flex-col bg-page">
       <header className="flex items-center gap-4 px-5 py-2">
         <BackIcon onClick={back} />
-        <span className="text-xl font-bold text-primary">Cart</span>
+        <span className="text-primary-base text-xl font-bold">Cart</span>
       </header>
 
       <div className="hide-scrollbar flex flex-col gap-10 overflow-scroll px-[30px] py-5 pb-10">

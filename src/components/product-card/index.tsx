@@ -28,7 +28,7 @@ const ProductCard = (props: ProductType) => {
   return (
     <div
       onClick={() => router.push(`/products/${productUrlPath}`)}
-      className="h-76 max-w-44 cursor-default overflow-clip rounded-md shadow-md lg:h-99 lg:max-w-60"
+      className="product-wrapper"
     >
       <div className="h-1/2 overflow-hidden">
         <Image
@@ -41,9 +41,7 @@ const ProductCard = (props: ProductType) => {
       </div>
 
       <div className="flex h-1/2 flex-col px-2 py-2">
-        <h2 className="line-clamp-2 h-fit text-lg font-semibold text-primary lg:text-2xl">
-          {props.name}
-        </h2>
+        <h2 className="product-name">{props.name}</h2>
 
         <div className="mt-auto flex flex-col gap-2">
           <span className="text-sm font-medium lg:text-base">
@@ -52,7 +50,8 @@ const ProductCard = (props: ProductType) => {
 
           <button
             onClick={addToCart}
-            className="w-full rounded-md bg-secondary px-5 py-2 text-sm text-white lg:text-base"
+            className="w-full rounded-md bg-secondary-base px-5 py-2 text-sm text-white hover:bg-secondary-light active:bg-secondary-dark lg:text-base"
+            title="Add to cart"
           >
             Add To Cart
           </button>

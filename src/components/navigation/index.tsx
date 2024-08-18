@@ -6,7 +6,7 @@ import { NavigationLink } from "../navigation-link";
 const Navigation = ({ isOpenHamburger }: { isOpenHamburger: boolean }) => {
   return (
     <nav
-      className={clsx("flex-col gap-2 max-md:flex", {
+      className={clsx("flex max-md:flex-col md:gap-2", {
         "max-md:hidden": !isOpenHamburger,
       })}
     >

@@ -2,7 +2,7 @@ import React from "react";
 
 const BackIcon = ({ onClick }: { onClick?: React.MouseEventHandler }) => {
   return (
-    <button type="button" onClick={onClick}>
+    <button type="button" title="Back" onClick={onClick}>
       <svg
         width="40"
         height="40"

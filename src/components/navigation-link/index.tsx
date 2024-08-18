@@ -4,14 +4,15 @@ import clsx from "clsx";
 
 export const NavigationLink = ({ name, to }: NavigationLinkPropsType) => {
   const isActive = usePathname() === to;
+
   return (
     <Link
       className={clsx(
         {
-          "text-primary decoration-primary max-md:underline md:rounded-full md:bg-secondary md:text-white":
+          "text-primary-base decoration-primary-base max-md:underline md:bg-secondary-base md:text-white":
             isActive,
         },
-        "px-5 md:px-6 md:py-2",
+        "px-5 py-2 max-md:hover:underline max-md:active:bg-gray-300 md:rounded-full md:px-6 md:hover:bg-secondary-base md:hover:text-white",
       )}
       href={to}
     >

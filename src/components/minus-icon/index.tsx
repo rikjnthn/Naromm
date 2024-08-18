@@ -4,7 +4,8 @@ const MinusIcon = ({ onClick }: { onClick?: React.MouseEventHandler }) => {
   return (
     <button
       onClick={onClick}
-      className="rounded-full border border-primary"
+      className="rounded-full border border-primary-base"
+      title="Reduce"
       type="button"
     >
       <svg

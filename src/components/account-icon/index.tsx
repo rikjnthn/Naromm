@@ -2,7 +2,7 @@ import React from "react";
 
 const AccountIcon = ({ onClick }: { onClick?: React.MouseEventHandler }) => {
   return (
-    <button onClick={onClick} type="button">
+    <button onClick={onClick} type="button" title="Account">
       <svg
         width="40"
         height="40"

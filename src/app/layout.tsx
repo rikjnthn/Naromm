@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function Layout({ children }: { children: React.ReactNode[] }) {
   return (
-    <html>
+    <html lang="en">
       <body className={clsx(inter.className, "bg-page")}>{children}</body>
     </html>
   );

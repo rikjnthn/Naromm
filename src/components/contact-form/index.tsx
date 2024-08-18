@@ -21,8 +21,9 @@ const ContactForm = () => {
         </div>
 
         <button
-          className="rounded-md bg-secondary px-10 py-2 text-white lg:ml-auto"
+          className="rounded-md bg-secondary-base px-10 py-2 text-white hover:bg-secondary-light active:bg-secondary-dark lg:ml-auto"
           type="submit"
+          title="Send"
         >
           Send
         </button>

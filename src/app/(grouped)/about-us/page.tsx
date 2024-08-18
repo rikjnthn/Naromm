@@ -1,12 +1,12 @@
 export default function Page() {
   return (
     <div className="lg:mx-auto lg:max-w-7xl">
-      <main className="my-[121px] md:my-96">
+      <main className="my-[121px] md:my-40 lg:my-60">
         <div className="flex flex-col items-center gap-12 md:gap-24 lg:gap-52">
-          <h1 className="text-4xl font-semibold text-primary md:text-6xl lg:text-8xl">
+          <h1 className="text-4xl font-semibold text-primary-base md:text-6xl lg:text-8xl">
             About Us
           </h1>
-          <div className="md:max-w-103 lg:max-w-120 max-w-96">
+          <div className="max-w-96 md:max-w-103 lg:max-w-120">
             <p className="px-10 text-center text-sm/8 md:text-base/8">
               Naromm is a company that stands at the forefront of innovation and
               luxury. Dedicated to transforming skin care routines into
@@ -24,11 +24,11 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="lg:mt-100 mt-28 flex flex-col items-center gap-12 md:mt-64 md:gap-24 lg:gap-52">
-          <h1 className="text-4xl font-semibold text-primary md:text-6xl lg:text-8xl">
+        <div className="mt-28 flex flex-col items-center gap-12 md:mt-64 md:gap-24 lg:mt-100 lg:gap-52">
+          <h1 className="text-4xl font-semibold text-primary-base md:text-6xl lg:text-8xl">
             Our Mission
           </h1>
-          <div className="md:max-w-103 lg:max-w-120 max-w-96">
+          <div className="max-w-96 md:max-w-103 lg:max-w-120">
             <p className="px-10 text-center text-sm/8 tracking-wide md:text-base/8">
               We believe in the transformative power of self-care. Our mission
               is not only to enhance your skin&apos;s health and beauty but also

@@ -51,13 +51,50 @@
   height: calc(100dvh - 61px);
 }
 
+.slogan-and-button {
+  display: grid;
+  place-items: center;
+}
+
+.slogan-and-button > div > h1 {
+  opacity: 0.01;
+  animation: slogan-and-button 1s ease 500ms 1 forwards;
+}
+
+.slogan-and-button > div > a {
+  opacity: 0;
+  animation: slogan-and-button 1s ease 700ms 1 forwards;
+}
+
+@keyframes slogan-and-button {
+  0% {
+    transform: translateY(50vh);
+    opacity: 0;
+  }
+  75% {
+    transform: translateY(-1rem);
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 .product-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   place-items: center;
-  gap: 60px 30px;
+  gap: 3.75rem 1.875rem;
   padding: 1.25rem;
   margin-bottom: 10rem;
+}
+
+.product-wrapper {
+  @apply h-76 max-w-44 cursor-default overflow-clip rounded-md shadow-md lg:h-99 lg:max-w-60;
+}
+
+.product-name {
+  @apply line-clamp-2 h-fit text-lg font-semibold text-primary-base lg:text-2xl;
 }
 
 input:focus,
@@ -71,7 +108,7 @@ textarea:focus {
 
 .product-recommendation {
   display: flex;
-  gap: 10px;
+  gap: 0.625rem;
   overflow-x: scroll;
   margin-top: 1.875rem;
 }
@@ -98,17 +135,80 @@ textarea:focus {
   font-weight: 600;
 }
 
-.category-option {
-}
-
 .category-option > li {
   padding: 0.5rem;
 }
 
+.why-choose-us-h1 {
+  @apply my-110 translate-y-full text-center text-4xl font-bold text-primary-base opacity-0 md:mb-80 md:text-6xl lg:text-7xl;
+}
+
+.why-choose-us-explanation {
+  @apply flex aspect-square translate-y-full flex-col gap-20 opacity-0 max-md:max-w-[300px] md:w-[400px] lg:w-[500px];
+}
+
 @media screen and (min-width: 1024px) {
   .product-container {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    row-gap: 150px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    row-gap: 5rem;
     padding: 30px;
+  }
+}
+
+.animate-slide-in-up {
+  animation: slide-in-up 1s ease var(--animation-delay, 200ms) 1 forwards;
+}
+
+@keyframes slide-in-up {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-shake {
+  animation: shake 500ms ease-in-out var(--animation-delay, 0ms) 1 forwards;
+}
+
+@keyframes shake {
+  10%,
+  50% {
+    rotate: 10deg;
+  }
+
+  20%,
+  60% {
+    rotate: 5deg;
+  }
+
+  30%,
+  70% {
+    rotate: -10deg;
+  }
+
+  40%,
+  80%,
+  100% {
+    rotate: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-shake,
+  .slogan-and-button > div > h1,
+  .slogan-and-button > div > a,
+  .animate-slide-in-up {
+    animation: none;
+  }
+
+  .animate-shake {
+    rotate: 0;
+  }
+
+  .slogan-and-button > div > a,
+  .slogan-and-button > div > h1,
+  .animate-slide-in-up {
+    transform: translateY(0);
+    opacity: 1;
   }
 }

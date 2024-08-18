@@ -1,6 +1,6 @@
-import React, { createContext, useContext, useReducer } from "react";
+import React, { createContext, useContext, useEffect, useReducer } from "react";
 
-import { CartContextType } from "@/interface";
+import { CartContextType, CartPayloadType } from "@/interface";
 import { cartReducer } from "@/reducer/cart-reducer";
 
 const CartContext = createContext<CartContextType | undefined>(undefined);
@@ -19,6 +19,20 @@ export const CartContextProvider = ({
   children: React.ReactNode;
 }) => {
   const [products, dispatch] = useReducer(cartReducer, []);
+
+  useEffect(() => {
+    const cartProducts = JSON.parse(
+      localStorage.getItem("cart-products") ?? "",
+    ) as CartPayloadType[];
+
+    cartProducts.forEach((cartProduct) => {
+      dispatch({ type: "ADD_ITEM", payload: cartProduct });
+    });
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem("cart-products", JSON.stringify(products));
+  }, [products]);
 
   return (
     <CartContext.Provider value={{ products, dispatch }}>

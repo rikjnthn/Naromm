@@ -23,7 +23,9 @@ const AddToCart = (props: ProductType) => {
       <div className="flex items-center gap-5">
         <button
           onClick={addToCart}
-          className="rounded-full bg-secondary py-2 text-white max-md:w-full md:rounded-md md:px-5"
+          className="rounded-full bg-secondary-base py-2 text-white hover:bg-secondary-light active:bg-secondary-dark max-md:w-full md:rounded-md md:px-5"
+          type="button"
+          title="Add to cart"
         >
           Add To Cart
         </button>

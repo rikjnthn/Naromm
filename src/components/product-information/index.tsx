@@ -10,7 +10,9 @@ const ProductInformation = ({
 
   return (
     <div className="px-5 max-md:p-5">
-      <h1 className="text-xl font-bold text-primary md:text-2xl">{name}</h1>
+      <h1 className="text-primary-base text-xl font-bold md:text-2xl">
+        {name}
+      </h1>
 
       <div
         className={clsx(
@@ -23,7 +25,7 @@ const ProductInformation = ({
       />
       <span
         onClick={() => setIsMore((prev) => !prev)}
-        className="cursor-default font-semibold text-primary"
+        className="text-primary-base cursor-default font-semibold"
       >
         {isMore ? "less" : "more"}
       </span>

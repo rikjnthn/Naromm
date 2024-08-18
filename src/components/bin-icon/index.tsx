@@ -4,8 +4,9 @@ const BinIcon = ({ onClick }: { onClick?: React.MouseEventHandler }) => {
   return (
     <button
       onClick={onClick}
-      className="rounded-full border border-primary"
+      className="border-primary rounded-full border"
       type="button"
+      title="Remove"
     >
       <svg
         className="md:h-[25px] md:w-[25px] lg:h-[30px] lg:w-[30px]"

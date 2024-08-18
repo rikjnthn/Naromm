@@ -4,8 +4,9 @@ const PlusIcon = ({ onClick }: { onClick?: React.MouseEventHandler }) => {
   return (
     <button
       onClick={onClick}
-      className="rounded-full border border-primary"
+      className="rounded-full border border-primary-base"
       type="button"
+      title="Add"
     >
       <svg
         className="md:h-[25px] md:w-[25px]"

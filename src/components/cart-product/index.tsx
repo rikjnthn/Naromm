@@ -12,7 +12,7 @@ const CartProduct = (props: CartPayloadType) => {
 
   return (
     <div className="overflow flex h-36 w-full gap-5">
-      <div className="min-w-28 md:min-w-52">
+      <div className="min-w-28 max-w-28 sm:max-w-36 md:min-w-52">
         <Image
           className="mx-auto h-full w-auto rounded-md object-cover"
           src={props.imageSrc}
@@ -24,7 +24,7 @@ const CartProduct = (props: CartPayloadType) => {
 
       <div className="flex flex-col gap-5">
         <div>
-          <div className="line-clamp-1 w-full text-lg font-semibold text-primary xs:line-clamp-2 md:text-xl">
+          <div className="line-clamp-1 w-full text-lg font-semibold text-primary-base xs:line-clamp-2 md:text-xl">
             {props.name}
           </div>
           <div className="text-sm md:text-base">{"$ " + props.price}</div>

@@ -53,7 +53,7 @@ const Header = ({ setIsOpenAccount, setIsOpenCart }: HeaderPropsType) => {
         <Logo stroke={isScrolledOver ? "#1A5319" : "#508D4E"} />
       </div>
 
-      <div className="right-7 top-16 max-md:absolute max-md:rounded-md max-md:bg-page max-md:py-5">
+      <div className="right-7 top-16 max-md:absolute max-md:rounded-md max-md:bg-page max-md:py-2">
         <Navigation isOpenHamburger={isHamburgerOpen} />
       </div>
 

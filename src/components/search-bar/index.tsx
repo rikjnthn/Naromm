@@ -13,7 +13,10 @@ const SearchBar = ({
 }: SearchBarPropsType) => {
   return (
     <div className="flex flex-wrap items-center justify-between gap-3 gap-y-8 px-5 py-[30px] lg:px-[30px]">
-      <form className="flex min-w-20 rounded-full border border-primary px-4 py-1">
+      <form
+        onSubmit={(e) => e.preventDefault()}
+        className="flex min-w-20 rounded-full border border-primary-base px-4 py-1"
+      >
         <input
           onChange={(e) => setSearch(e.currentTarget.value.trim())}
           className="w-full bg-transparent"
@@ -21,7 +24,7 @@ const SearchBar = ({
           placeholder="Search"
           value={search}
         />
-        <button type="submit">
+        <button type="submit" title="Search">
           <SearchIcon />
         </button>
       </form>

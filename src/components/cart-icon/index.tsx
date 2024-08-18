@@ -1,9 +1,18 @@
+"use client";
+import clsx from "clsx";
 import React from "react";
 
+import { useProducts } from "@/context/cart-context";
+
 const CartIcon = ({ onClick }: { onClick?: React.MouseEventHandler }) => {
+  const { products } = useProducts();
+
+  const isAddedProduct = products.length > 0;
+
   return (
-    <button onClick={onClick} type="button">
+    <button onClick={onClick} title="Cart" type="button">
       <svg
+        className={clsx(isAddedProduct && "animate-shake")}
         width="40"
         height="40"
         viewBox="0 0 100 100"
@@ -15,6 +24,13 @@ const CartIcon = ({ onClick }: { onClick?: React.MouseEventHandler }) => {
           stroke="#1A5319"
           strokeWidth="5"
           strokeLinejoin="round"
+        />
+        <circle
+          className={clsx(!isAddedProduct && "hidden")}
+          cx="70.5"
+          cy="40.5"
+          r="18"
+          fill="#508D4E"
         />
       </svg>
     </button>

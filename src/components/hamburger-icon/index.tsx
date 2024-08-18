@@ -12,7 +12,12 @@ const HamburgerIcon = ({
   };
 
   return (
-    <button onClick={handleOpenHamburger} className="hamburger md:hidden">
+    <button
+      onClick={handleOpenHamburger}
+      className="hamburger md:hidden"
+      type="button"
+      title="Hamburger"
+    >
       <svg
         width="40"
         height="40"

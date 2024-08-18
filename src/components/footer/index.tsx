@@ -11,7 +11,7 @@ const Footer = () => {
   if (segments[0] === "products" && segments.length > 1) return;
 
   return (
-    <footer className="flex flex-col gap-10 bg-primary p-5">
+    <footer className="bg-primary-base flex flex-col gap-10 p-5">
       <div>
         <Logo />
       </div>

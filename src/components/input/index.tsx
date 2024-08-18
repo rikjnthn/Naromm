@@ -5,7 +5,7 @@ const Input = ({ name, ...inputProps }: InputPropsType) => {
 
   return (
     <div className="flex w-full flex-col gap-10">
-      <label className="text-xl font-medium text-primary" htmlFor={id}>
+      <label className="text-primary-base text-xl font-medium" htmlFor={id}>
         {name}
       </label>
       <input
