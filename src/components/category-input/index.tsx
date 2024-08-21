@@ -16,7 +16,7 @@ const categoryOptions = [
 const CategoryInput = ({ category, setCategory }: CategoryInputPropsType) => {
   const [isOpenOption, setIsOpenOption] = useState<boolean>(false);
 
-  const categoryRef = useRef<HTMLDivElement>(null);
+  const categoryRef = useRef<HTMLButtonElement>(null);
 
   return (
     <div className="cursor-default select-none">
