@@ -18,7 +18,7 @@ const ProductContainer = ({ products }: { products: ProductType[] }) => {
     .map((product) => {
       if (search.trim() === "") return product;
 
-      return product.name.toLowerCase().includes(search.trim())
+      return product.name.toLowerCase().includes(search.toLowerCase().trim())
         ? product
         : undefined;
     })
