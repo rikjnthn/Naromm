@@ -19,7 +19,7 @@ const AddToCart = (props: ProductType) => {
 
   return (
     <div className="fixed bottom-0 flex w-full gap-2 bg-page p-5 max-md:flex-col md:static md:items-center md:justify-between">
-      <span className="w-max font-bold md:text-xl">{"$ " + "20.00"}</span>
+      <span className="w-max font-bold md:text-xl">{"$ " + props.price}</span>
       <div className="flex items-center gap-5">
         <button
           onClick={addToCart}

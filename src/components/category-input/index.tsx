@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import clsx from "clsx";
 
 import { CategoryType, SetStateType } from "@/interface";
@@ -18,33 +18,26 @@ const CategoryInput = ({ category, setCategory }: CategoryInputPropsType) => {
 
   const categoryRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    const handleClick = (e: MouseEvent) => {};
-
-    window.addEventListener("click", handleClick);
-    return () => window.removeEventListener("click", handleClick);
-  }, [isOpenOption]);
-
   return (
     <div className="cursor-default select-none">
-      <div
+      <button
+        type="button"
+        title={`Category ${category}`}
         onClick={() => setIsOpenOption((prev) => !prev)}
         ref={categoryRef}
-        className="border-primary-base flex w-32 items-center justify-between rounded-md border px-2 py-1 hover:bg-zinc-400 hover:bg-opacity-30 active:bg-zinc-600 active:bg-opacity-30"
+        className="flex w-32 items-center justify-between rounded-md border border-primary-base px-2 py-1 hover:bg-zinc-400 hover:bg-opacity-30 active:bg-zinc-600 active:bg-opacity-30"
       >
         <div className="text-sm">{category}</div>
 
         <div className={clsx({ "rotate-180": !isOpenOption })}>
           <ArrowIcon />
         </div>
-      </div>
+      </button>
 
       <div
         className={clsx(
-          "absolute w-32 overflow-clip rounded-md bg-page text-sm shadow-md",
-          {
-            hidden: !isOpenOption,
-          },
+          "w-32 overflow-clip rounded-md bg-page text-sm shadow-md",
+          isOpenOption ? "absolute" : "hidden",
         )}
       >
         <ul className="category-option">
