@@ -1,0 +1,92 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "category": "Moisturizer",
+      "imageSrc": "/gel-moisturizer.jpg",
+      "price": "20.00",
+      "name": "Naromm Clear Gel Moisturizer",
+      "descriptionFileName": "clear-gel-moisturizer.txt"
+    },
+    {
+      "id": "2",
+      "category": "Moisturizer",
+      "imageSrc": "/soothing-moisturizer.jpg",
+      "price": "20.00",
+      "name": "Naromm Soothing Cream Moisturizer",
+      "descriptionFileName": "soothing-cream-moisturizer.txt"
+    },
+    {
+      "id": "3",
+      "category": "Sunscreen",
+      "imageSrc": "/sunscreen.jpg",
+      "price": "20.00",
+      "name": "Naromm Sunscreen SPF 50+ PA++++",
+      "descriptionFileName": "sunscreen.txt"
+    },
+    {
+      "id": "4",
+      "category": "Cleanser",
+      "imageSrc": "/brightening-cleanser.jpg",
+      "price": "20.00",
+      "name": "Naromm Brightening Facewash",
+      "descriptionFileName": "brightening-facewash.txt"
+    },
+    {
+      "id": "5",
+      "category": "Cleanser",
+      "imageSrc": "/centella-facewash.jpg",
+      "price": "20.00",
+      "name": "Naromm Centella Facewash",
+      "descriptionFileName": "centella-facewash.txt"
+    },
+    {
+      "id": "6",
+      "category": "Moisturizer",
+      "imageSrc": "/brightening-moisturizer.jpg",
+      "price": "20.00",
+      "name": "Naromm Brightening Cream Moisturizer",
+      "descriptionFileName": "brightening-cream-moisturizer.txt"
+    },
+    {
+      "id": "7",
+      "category": "Serum",
+      "imageSrc": "/hyaluronic-acid-serum.jpg",
+      "price": "20.00",
+      "name": "Naromm Hyaluronic Acid Serum",
+      "descriptionFileName": "hyaluronic-acid-serum.txt"
+    },
+    {
+      "id": "8",
+      "category": "Serum",
+      "imageSrc": "/exfoliating-serum.jpg",
+      "price": "20.00",
+      "name": "Naromm Exfoliating Serum",
+      "descriptionFileName": "exfoliating-serum.txt"
+    },
+    {
+      "id": "9",
+      "category": "Serum",
+      "imageSrc": "/anti-acne-serum.jpg",
+      "price": "20.00",
+      "name": "Naromm Anti Acne Serum",
+      "descriptionFileName": "anti-acne-serum.txt"
+    },
+    {
+      "id": "10",
+      "category": "Serum",
+      "imageSrc": "/brightening-serum.jpg",
+      "price": "20.00",
+      "name": "Naromm Brightening Serum",
+      "descriptionFileName": "brightening-serum.txt"
+    },
+    {
+      "id": "11",
+      "category": "Cleanser",
+      "imageSrc": "/anti-acne-cleanser.jpg",
+      "price": "20.00",
+      "name": "Naromm Anti Acne Facewash",
+      "descriptionFileName": "anti-acne-facewash.txt"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+<p>
+  Indulge your skin with our Naromm Soothing Cream Moisturizer, a luxurious blend crafted to provide immediate comfort
+  and lasting hydration. This rich, yet lightweight formula is designed to calm and nurture sensitive or irritated skin,
+  making it ideal for those seeking relief from dryness or environmental stressors.
+</p>
+
+<div>
+  Key Benefits:
+</div>
+
+<ul>
+  <li>
+    <span>Calming Complex:</span> Infused with natural extracts such as chamomile and calendula, this moisturizer helps
+    reduce
+    redness and inflammation, promoting a more balanced and serene complexion.
+  </li>
+  <li>
+    <span>Hydrating Blend:</span> Hyaluronic acid and squalane work together to deeply hydrate and lock in moisture,
+    ensuring your
+    skin remains plump and supple throughout the day.
+  </li>
+  <li>
+    <span>Barrier Support:</span> Enriched with ceramides and fatty acids, it helps to reinforce the skin's natural
+    barrier,
+    protecting against moisture loss and external aggressors.
+  </li>
+  <li>
+    <span>Gentle Formula:</span> This cream is suitable for all skin types, including sensitive and reactive skin.
+  </li>
+</ul>
+
+<div>
+  How to Use:
+</div>
+
+<p>
+  Apply a generous amount to clean, dry skin, gently massaging in upward motions until fully absorbed. Use morning and
+  evening for optimal results.
+</p>

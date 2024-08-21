@@ -1,0 +1,38 @@
+<p>
+  Revitalize your complexion with our Naromm Brightening Facewash, specially
+  formulated to gently cleanse while enhancing your skin's natural radiance.
+  This refreshing cleanser effectively removes impurities, excess oil, and
+  makeup, leaving your skin feeling clean, invigorated, and luminous.
+</p>
+
+<div>Key Benefits:</div>
+
+<ul>
+  <li>
+    <span>Brightening Complex:</span> Enriched with vitamin C and licorice extract, it
+    helps to diminish dullness and even out skin tone, promoting a brighter,
+    more radiant appearance.
+  </li>
+  <li>
+    <span>Gentle Exfoliation:</span> Contains mild exfoliating agents such as alpha hydroxy
+    acids (AHAs) to slough away dead skin cells, revealing a smoother and more
+    refreshed surface.
+  </li>
+  <li>
+    <span>Hydrating Formula:</span> Infused with hydrating ingredients like glycerin and
+    aloe vera to maintain skin's moisture balance and prevent dryness.
+  </li>
+  <li>
+    <span>Soothing Action:</span> Features calming agents such as chamomile extract to
+    soothe and comfort the skin, making it suitable for daily use.
+  </li>
+</ul>
+
+<div>How to Use:</div>
+
+<p>
+  Apply a small amount to damp skin and gently massage in circular motions,
+  focusing on areas with buildup or dullness. Rinse thoroughly with lukewarm
+  water and pat dry. For optimal results, use morning and evening before
+  applying your other skincare products.
+</p>

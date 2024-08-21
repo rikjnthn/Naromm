@@ -1,0 +1,36 @@
+<p>
+  Reveal a brighter, smoother complexion with our Naromm Exfoliating Serum, a
+  powerful blend designed to gently exfoliate and renew your skin. This
+  advanced formula combines exfoliating acids with soothing ingredients to
+  enhance skin texture, reduce dullness, and promote a radiant glow.
+</p>
+<div>Key Benefits:</div>
+<ul>
+  <li>
+    <span>Exfoliating Acids:</span> Features a blend of alpha hydroxy acids (AHAs) and beta
+    hydroxy acids (BHAs) to gently exfoliate dead skin cells, unclog pores,
+    and improve overall skin texture.
+  </li>
+  <li>
+    <span>Radiance Boost:</span> Helps to even out skin tone and diminish the appearance of
+    dark spots and hyperpigmentation, revealing a more luminous and refreshed
+    complexion.
+  </li>
+  <li>
+    <span>Hydrating and Soothing:</span> Enriched with hydrating agents like hyaluronic
+    acid and soothing extracts such as aloe vera to prevent dryness and calm
+    the skin during the exfoliation process.
+  </li>
+  <li>
+    <span>Gentle Formulation:</span> Designed for all skin types, including sensitive skin,
+    with a balanced formula that exfoliates without causing irritation or
+    over-drying.
+  </li>
+</ul>
+<div>How to Use:</div>
+<p>
+  Apply a thin layer to clean, dry skin in the evening, avoiding the eye area.
+  Allow to absorb before applying other products. Use 2-3 times a week,
+  gradually increasing frequency as tolerated. Follow with a moisturizer to
+  lock in hydration.
+</p>

@@ -8,13 +8,42 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        page: "#F4F6EA",
+        primary: {
+          base: "#1A5319",
+          light: "#187a16",
+          dark: "#0c520b",
+        },
+        secondary: {
+          base: "#508D4E",
+          light: "#5ca65a",
+          dark: "#396637",
+        },
+      },
+      fontSize: {
+        "3xl": "2rem",
+      },
+      screens: {
+        xs: "410px",
+      },
+      spacing: {
+        "76": "18.75rem",
+        "97": "25rem",
+        "99": "28.125rem",
+        "100": "28rem",
+        "103": "31.25rem",
+        "110": "40rem",
+        "120": "50rem",
+      },
+      opacity: {
+        "1": "0.01",
       },
     },
   },
   plugins: [],
+  future: {
+    hoverOnlyWhenSupported: true,
+  },
 };
 export default config;
