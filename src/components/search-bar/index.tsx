@@ -18,7 +18,7 @@ const SearchBar = ({
         className="flex min-w-20 rounded-full border border-primary-base px-4 py-1"
       >
         <input
-          onChange={(e) => setSearch(e.currentTarget.value.trim())}
+          onChange={(e) => setSearch(e.currentTarget.value)}
           className="w-full bg-transparent"
           type="text"
           placeholder="Search"

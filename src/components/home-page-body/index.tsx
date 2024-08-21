@@ -53,7 +53,7 @@ const HomePageBody = () => {
           )}
         >
           <div className="flex max-w-97 flex-col gap-7">
-            <h2 className="text-center text-xl/8 font-bold text-primary-base md:text-3xl/8 lg:text-5xl/8">
+            <h2 className="text-center text-xl/8 font-bold text-primary-base md:text-3xl/8 lg:text-5xl">
               Cruelty-Free Commitment
             </h2>
             <p className="text-center text-sm/8 md:text-base/8">

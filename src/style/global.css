@@ -156,7 +156,7 @@ textarea:focus {
 }
 
 .animate-slide-in-up {
-  animation: slide-in-up 1s ease var(--animation-delay, 200ms) 1 forwards;
+  animation: slide-in-up 1s ease var(--animation-delay, 0ms) 1 forwards;
 }
 
 @keyframes slide-in-up {

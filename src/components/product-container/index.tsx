@@ -16,9 +16,11 @@ const ProductContainer = ({ products }: { products: ProductType[] }) => {
       return product.category === category;
     })
     .map((product) => {
-      if (search === "") return product;
+      if (search.trim() === "") return product;
 
-      return product.name.toLowerCase().includes(search) ? product : undefined;
+      return product.name.toLowerCase().includes(search.trim())
+        ? product
+        : undefined;
     })
     .filter((product) => !!product);
 
