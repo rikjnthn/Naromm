@@ -68,7 +68,7 @@ export async function generateStaticParams() {
   const products = JSON.parse(data).products as ProductType[];
 
   return products.map(({ name }) => ({
-    product: encodeURIComponent(name.replaceAll(" ", "-")),
+    product: name.replaceAll(" ", "-"),
   }));
 }
 
@@ -77,7 +77,7 @@ export default async function Page({
 }: {
   params: { product: string };
 }) {
-  const productName = decodeURIComponent(params.product).replaceAll("-", " ");
+  const productName = decodeURIComponent(params.product.replaceAll("-", " "));
 
   const { productRecommendation, productInformation } =
     await getProducts(productName);
