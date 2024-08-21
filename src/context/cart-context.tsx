@@ -21,6 +21,10 @@ export const CartContextProvider = ({
   const [products, dispatch] = useReducer(cartReducer, []);
 
   useEffect(() => {
+    if (!localStorage.getItem("cart-products")) {
+      localStorage.setItem("cart-products", JSON.stringify([]));
+    }
+
     const cartProducts = JSON.parse(
       localStorage.getItem("cart-products") ?? "",
     ) as CartPayloadType[];
