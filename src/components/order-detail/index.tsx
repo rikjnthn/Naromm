@@ -34,7 +34,7 @@ const OrderDetail = () => {
       </div>
 
       <button
-        className="mt-6 flex w-full justify-center rounded-full bg-secondary-base py-2 text-white"
+        className="mt-6 flex w-full justify-center rounded-full bg-secondary-base py-2 text-white hover:bg-secondary-light active:bg-secondary-dark"
         title="Order"
         type="button"
       >

@@ -87,7 +87,7 @@ export default async function Page({
       <ProductOverviewHeader />
 
       <div className="mt-14 md:mt-32 md:flex md:justify-between md:px-14 lg:px-24">
-        <div className="flex h-80 md:max-w-97 lg:max-w-103">
+        <div className="mx-auto flex h-80 md:max-w-97 lg:max-w-103">
           <Image
             className="mx-auto h-full w-auto object-cover md:rounded-md"
             src={productInformation.imageSrc}
